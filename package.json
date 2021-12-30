@@ -1,0 +1,21 @@
+{
+  "name": "desafio-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "babel": "npx babel src/ -d dist/ --config-file ./babel.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.5"
+  },
+  "dependencies": {
+    "core-js": "^3.20.1"
+  }
+}
